@@ -1,0 +1,11 @@
+docling
+ollama
+pydantic
+watchdog
+sentence-transformers
+lancedb
+numpy
+pandas
+fastapi
+python-multipart
+uvicorn
