@@ -36,7 +36,6 @@ This project is built with a focus on local privacy, high performance, and moder
 * Research View: A dedicated UI for exploring the connections between your sources and extracted knowledge.
 
 ## Installation
-> !NOTE
 > If you just want to test the LLM functionality, use testing.ipynb
 
 Follow these steps to set up LLAutoLibrary on your local machine.
