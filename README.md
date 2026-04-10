@@ -1,10 +1,10 @@
-# LLLibrary
-LLLibrary is an automated personal knowledge-graph system designed for researchers. It transforms raw, unstructured documents into a structured, interconnected "Digital Garden" or wiki. By leveraging local LLMs and vector databases, LLLibrary automatically extracts core concepts from your documents and links them together, allowing for efficient discovery and high-fidelity information retrieval.
+# LLAutoLibrary
+LLAutoLibrary is an automated personal knowledge-graph system designed for researchers. It transforms raw, unstructured documents into a structured, interconnected "Digital Garden" or wiki. By leveraging local LLMs and vector databases, LLAutoLibrary automatically extracts core concepts from your documents and links them together, allowing for efficient discovery and high-fidelity information retrieval.
 
 Inspired by Andrej Karpathy's vision of personal AI operating systems and the potential of LLMs as a reasoning layer over structured data, this project aims to bridge the gap between static document storage and dynamic knowledge management.
 
 ## The Vision
-The goal of LLLibrary is to move beyond simple folder structures. In a professional or organizational setting, this system allows an LLM to sit atop a massive knowledge graph, enabling it to generate insights, summaries, and reports based on the explicit relationships between data points rather than just raw text chunks.
+The goal of LLAutoLibrary is to move beyond simple folder structures. In a professional or organizational setting, this system allows an LLM to sit atop a massive knowledge graph, enabling it to generate insights, summaries, and reports based on the explicit relationships between data points rather than just raw text chunks.
 
 ## Technology Stack
 This project is built with a focus on local privacy, high performance, and modern web standards:
@@ -29,7 +29,7 @@ This project is built with a focus on local privacy, high performance, and moder
 * Research View: A dedicated UI for exploring the connections between your sources and extracted knowledge.
 
 ## Installation
-Follow these steps to set up LLLibrary on your local machine.
+Follow these steps to set up LLAutoLibrary on your local machine.
 
 Prerequisites
 * Python 3.10+
@@ -43,8 +43,8 @@ ollama pull gemma4:e4b
 ```
 1. Clone the Repository
 ```Bash
-git clone https://github.com/etcasketera/lllibrary.git
-cd lllibrary
+git clone https://github.com/etcasketera/LLAutoLibrary.git
+cd LLAutoLibrary
 ```
 2. Backend Setup (Engine): Create a virtual environment and install the required Python packages (I used conda)
 
