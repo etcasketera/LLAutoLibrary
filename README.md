@@ -42,14 +42,13 @@ Follow these steps to set up LLAutoLibrary on your local machine.
 
 Prerequisites
 * Python 3.10+
-
 * Node.js (v18+) & npm
-
 * Ollama: Download and install Ollama. Once installed, pull the model:
 
 ```Bash
 ollama pull gemma4:e4b
 ```
+* Gemma 4: This version requires at least 16 GB of VRAM, or 16 GB of RAM on Apple Silicon. If you want to downgrade, you can use gemma4:e2b instead.
 1. Clone the Repository
 ```Bash
 git clone https://github.com/etcasketera/LLAutoLibrary.git
