@@ -6,6 +6,13 @@ Inspired by Andrej Karpathy's vision of personal AI operating systems and the po
 ## The Vision
 The goal of LLAutoLibrary is to move beyond simple folder structures. In a professional or organizational setting, this system allows an LLM to sit atop a massive knowledge graph, enabling it to generate insights, summaries, and reports based on the explicit relationships between data points rather than just raw text chunks.
 
+## Planned Additions
+* Linting to clean up overlapping concepts, missing information, and standardizing file formats
+* Ability to toggle between local and cloud models
+* Containerization
+* Additional tools (data visualizations, presentations, reports)
+* Improved UI/UX
+
 ## Technology Stack
 This project is built with a focus on local privacy, high performance, and modern web standards:
 
